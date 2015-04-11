@@ -13,6 +13,10 @@
 		04978F641AD8EE240083F1AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04978F631AD8EE240083F1AB /* Images.xcassets */; };
 		04978F671AD8EE240083F1AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04978F651AD8EE240083F1AB /* LaunchScreen.xib */; };
 		04978F731AD8EE250083F1AB /* SoundShakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04978F721AD8EE250083F1AB /* SoundShakeTests.swift */; };
+		04978F811AD8F0010083F1AB /* 870-12Gauge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04978F7D1AD8F0010083F1AB /* 870-12Gauge.mp3 */; };
+		04978F821AD8F0010083F1AB /* AK47.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04978F7E1AD8F0010083F1AB /* AK47.mp3 */; };
+		04978F831AD8F0010083F1AB /* M16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04978F7F1AD8F0010083F1AB /* M16.mp3 */; };
+		04978F841AD8F0010083F1AB /* Mk19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04978F801AD8F0010083F1AB /* Mk19.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		04978F6C1AD8EE240083F1AB /* SoundShakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundShakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04978F711AD8EE250083F1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04978F721AD8EE250083F1AB /* SoundShakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundShakeTests.swift; sourceTree = "<group>"; };
+		04978F7D1AD8F0010083F1AB /* 870-12Gauge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "870-12Gauge.mp3"; sourceTree = "<group>"; };
+		04978F7E1AD8F0010083F1AB /* AK47.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AK47.mp3; sourceTree = "<group>"; };
+		04978F7F1AD8F0010083F1AB /* M16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = M16.mp3; sourceTree = "<group>"; };
+		04978F801AD8F0010083F1AB /* Mk19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mk19.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		04978F591AD8EE240083F1AB /* SoundShake */ = {
 			isa = PBXGroup;
 			children = (
+				04978F7C1AD8F0010083F1AB /* gunSound */,
 				04978F5C1AD8EE240083F1AB /* AppDelegate.swift */,
 				04978F5E1AD8EE240083F1AB /* ViewController.swift */,
 				04978F601AD8EE240083F1AB /* Main.storyboard */,
@@ -110,6 +119,17 @@
 				04978F711AD8EE250083F1AB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04978F7C1AD8F0010083F1AB /* gunSound */ = {
+			isa = PBXGroup;
+			children = (
+				04978F7D1AD8F0010083F1AB /* 870-12Gauge.mp3 */,
+				04978F7E1AD8F0010083F1AB /* AK47.mp3 */,
+				04978F7F1AD8F0010083F1AB /* M16.mp3 */,
+				04978F801AD8F0010083F1AB /* Mk19.mp3 */,
+			);
+			path = gunSound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04978F621AD8EE240083F1AB /* Main.storyboard in Resources */,
+				04978F811AD8F0010083F1AB /* 870-12Gauge.mp3 in Resources */,
+				04978F821AD8F0010083F1AB /* AK47.mp3 in Resources */,
+				04978F831AD8F0010083F1AB /* M16.mp3 in Resources */,
 				04978F671AD8EE240083F1AB /* LaunchScreen.xib in Resources */,
+				04978F841AD8F0010083F1AB /* Mk19.mp3 in Resources */,
 				04978F641AD8EE240083F1AB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
